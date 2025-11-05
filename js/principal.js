@@ -5,8 +5,15 @@ titulo.textContent = "Aparecida Nutricionista";
 var paciente = paciente document.querySelector("#primeiro-paciente")
 var tdPeso = document.querySelector(".info-peso")
 var peso = tdPeso.textContent;
+var tdAltura = document.querySelector(".info-altura");
+var altura = tdAltura.textContent;
+var imc = peso / (altura*altura);
 
 
 console.log(paciente); //tr
 console.log(paciente); //td que tem peso
-console.log(peso);
+console.log(peso); //valor do peso
+console.log(altura); //valor da altura
+
+console.log(imc);
+
