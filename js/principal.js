@@ -15,5 +15,6 @@ console.log(paciente); //td que tem peso
 console.log(peso); //valor do peso
 console.log(altura); //valor da altura
 
-console.log(imc);
+var tDImc = paciente.querySelector(">info-imc");
+tDImc.textContent = imc;
 
